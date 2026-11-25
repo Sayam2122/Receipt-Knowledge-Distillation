@@ -1,0 +1,9 @@
+torch
+numpy
+scikit-learn
+pillow
+rapidocr-onnxruntime   # OCR for unseen images (or: easyocr)
+gradio                 # demo UI
+# teacher stage only (run on a GPU box, e.g. Colab/Kaggle):
+transformers>=4.49
+accelerate

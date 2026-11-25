@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Data and generated files (too big / not code)
+receipt_dataset/
+kd_data/
+kd_data_ocr/
+kd_ocr/
+kd_ocr_eval/
+dataset/
+dataset_small/
+tmp_ds/
+code/
+my_receipts/
+report_eval*/
+*.zip
+*.png
+*.jpg
+*.jpeg
+out.*
+
+# Trained runs: keep only the demo checkpoint
+runs/*
+!runs/ce_all/
+runs/ce_all/*
+!runs/ce_all/seed0.pt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
